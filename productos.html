@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="nevegacion__enlace" href="index.html">Tienda</a>
+        <a class="nevegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1 class="product__titulo">React JS</h1>
+        
+        <div class="product__cuadro">
+            <img class="product__imagen" src="img/1.jpg" alt="imagen camisa">
+
+            <div class="product__subcuadro">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque massa magna, aliquam nec arcu 
+                quis, commodo convallis lectus. In malesuada elit tortor, sit amet vestibulum eros rhoncus nec. 
+                Etiam ex nisi, sagittis id purus at, vehicula scelerisque diam.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option>
+                        <option class="formulario__talla">Chica</option>
+                        <option class="formulario__talla" >Mediana</option>
+                        <option class="formulario__talla" >Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="boton" type="submit" value="Agregar Al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+
+</body>
+</html>
